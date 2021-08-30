@@ -1,22 +1,21 @@
 from django.contrib.auth.models import AbstractUser
-from django.db.models import CharField
-from django.urls import reverse
+from django.db.models import EmailField
 from django.utils.translation import gettext_lazy as _
+
+from blau_backend.users.managers import CustomUserManager
 
 
 class User(AbstractUser):
     """Default user for BLAU Backend."""
 
-    #: First and last name do not cover name patterns around the globe
-    name = CharField(_("Name of User"), blank=True, max_length=255)
-    first_name = None  # type: ignore
-    last_name = None  # type: ignore
+    username = None
+    first_name = None
+    last_name = None
+    email = EmailField(
+        _("email address"), max_length=255, unique=True, blank=False, null=False
+    )
 
-    def get_absolute_url(self):
-        """Get url for user's detail view.
+    objects = CustomUserManager()
 
-        Returns:
-            str: URL for user detail.
-
-        """
-        return reverse("users:detail", kwargs={"username": self.username})
+    USERNAME_FIELD = "email"
+    REQUIRED_FIELDS = []

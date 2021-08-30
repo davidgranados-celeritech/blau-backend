@@ -2,3 +2,5 @@
 # ------------------------------------------------------------------------------
 USE_DOCKER=yes
 IPYTHONDIR=/app/.ipython
+
+DJANGO_SECRET_KEY=3O1BczArJaFcutq9PkzV00LClW2GyiOcLkm6W1GfjjUOD8broVU2eXYVKtVW2iS8
