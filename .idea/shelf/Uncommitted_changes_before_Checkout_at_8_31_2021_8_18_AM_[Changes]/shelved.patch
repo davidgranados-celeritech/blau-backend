@@ -1,0 +1,86 @@
+Index: .idea/inspectionProfiles/Project_Default.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/inspectionProfiles/Project_Default.xml b/.idea/inspectionProfiles/Project_Default.xml
+new file mode 100644
+--- /dev/null	(date 1630415448343)
++++ b/.idea/inspectionProfiles/Project_Default.xml	(date 1630415448343)
+@@ -0,0 +1,14 @@
++<component name="InspectionProjectProfileManager">
++  <profile version="1.0">
++    <option name="myName" value="Project Default" />
++    <inspection_tool class="PyCompatibilityInspection" enabled="true" level="WARNING" enabled_by_default="true">
++      <option name="ourVersions">
++        <value>
++          <list size="1">
++            <item index="0" class="java.lang.String" itemvalue="3.8" />
++          </list>
++        </value>
++      </option>
++    </inspection_tool>
++  </profile>
++</component>
+\ No newline at end of file
+Index: .idea/blau_backend.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"PYTHON_MODULE\" version=\"4\">\r\n  <component name=\"FacetManager\">\r\n    <facet type=\"django\" name=\"Django\">\r\n      <configuration>\r\n        <option name=\"rootFolder\" value=\"$MODULE_DIR$\" />\r\n        <option name=\"settingsModule\" value=\"config/settings/local.py\" />\r\n        <option name=\"manageScript\" value=\"$MODULE_DIR$/manage.py\" />\r\n        <option name=\"environment\" value=\"&lt;map/&gt;\" />\r\n        <option name=\"doNotUseTestRunner\" value=\"false\" />\r\n        <option name=\"trackFilePattern\" value=\"migrations\" />\r\n      </configuration>\r\n    </facet>\r\n  </component>\r\n  <component name=\"NewModuleRootManager\">\r\n     \r\n    <content url=\"file://$MODULE_DIR$\" /> \r\n    \r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n  </component>\r\n  <component name=\"PackageRequirementsSettings\">\r\n    <option name=\"requirementsPath\" value=\"$MODULE_DIR$/requirements/local.txt\" />\r\n  </component>\r\n   <component name=\"PyDocumentationSettings\">\r\n    <option name=\"renderExternalDocumentation\" value=\"true\" />\r\n  </component>\r\n  <component name=\"ReSTService\">\r\n    <option name=\"workdir\" value=\"$MODULE_DIR$/docs\" />\r\n    <option name=\"DOC_DIR\" value=\"$MODULE_DIR$/docs\" />\r\n  </component>\r\n  <component name=\"TemplatesService\">\r\n    <option name=\"TEMPLATE_CONFIGURATION\" value=\"Django\" />\r\n    <option name=\"TEMPLATE_FOLDERS\">\r\n      <list>\r\n        <option value=\"$MODULE_DIR$/blau_backend/templates\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"TestRunnerService\">\r\n    <option name=\"projectConfiguration\" value=\"pytest\" />\r\n    <option name=\"PROJECT_TEST_RUNNER\" value=\"pytest\" />\r\n  </component>\r\n</module>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/blau_backend.iml b/.idea/blau_backend.iml
+--- a/.idea/blau_backend.iml	(revision cd26c31fc35ffab5f5a4ea030fd81ca64bdb0f99)
++++ b/.idea/blau_backend.iml	(date 1630415590451)
+@@ -13,19 +13,17 @@
+     </facet>
+   </component>
+   <component name="NewModuleRootManager">
+-     
+-    <content url="file://$MODULE_DIR$" /> 
+-    
++    <content url="file://$MODULE_DIR$" />
++    <orderEntry type="jdk" jdkName="Remote Python 3.8.11 Docker Compose (django at [C:\Users\david\celeritech\blau-backend\local.yml])" jdkType="Python SDK" />
+     <orderEntry type="sourceFolder" forTests="false" />
+   </component>
+   <component name="PackageRequirementsSettings">
+     <option name="requirementsPath" value="$MODULE_DIR$/requirements/local.txt" />
+   </component>
+-   <component name="PyDocumentationSettings">
++  <component name="PyDocumentationSettings">
+     <option name="renderExternalDocumentation" value="true" />
+   </component>
+   <component name="ReSTService">
+-    <option name="workdir" value="$MODULE_DIR$/docs" />
+     <option name="DOC_DIR" value="$MODULE_DIR$/docs" />
+   </component>
+   <component name="TemplatesService">
+@@ -37,7 +35,6 @@
+     </option>
+   </component>
+   <component name="TestRunnerService">
+-    <option name="projectConfiguration" value="pytest" />
+     <option name="PROJECT_TEST_RUNNER" value="pytest" />
+   </component>
+-</module>
++</module>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"JavaScriptSettings\">\r\n    <option name=\"languageLevel\" value=\"ES6\" />\r\n  </component>\r\n</project>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision cd26c31fc35ffab5f5a4ea030fd81ca64bdb0f99)
++++ b/.idea/misc.xml	(date 1630415590470)
+@@ -3,4 +3,5 @@
+   <component name="JavaScriptSettings">
+     <option name="languageLevel" value="ES6" />
+   </component>
+-</project>
++  <component name="ProjectRootManager" version="2" project-jdk-name="Remote Python 3.8.11 Docker Compose (django at [C:\Users\david\celeritech\blau-backend\local.yml])" project-jdk-type="Python SDK" />
++</project>
+\ No newline at end of file
